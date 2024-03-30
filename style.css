@@ -1,0 +1,38 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.cell:hover{
+    background-color: rgb(145, 146, 146);
+}
+#gamecontainer{
+    font-family: "Permanent Marker",cursive;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#matrix{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+}
+#restart{
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    transition: ease 0.5s;
+}
+#restart:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: ease 0.5s;
+}
+body{
+    background-image:url(bg.jpg);
+}
